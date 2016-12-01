@@ -1,0 +1,169 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>test page</title>
+
+    <link rel="stylesheet" type="text/css" href="css/cssStyle.css">
+    <script src="js/hidden.js"></script>
+    <script src="js/logo.js"></script>
+    <script src="js/jquery-1.11.2.js"></script>
+
+</head>
+<body onLoad="changeLogo()">
+    <div id="general">
+       
+       <header>
+           <h1>Header</h1> 
+           <p>must be a icon... or at lest a logo</p>
+           <div>
+            <img id="logoDisplay" src="img/logo01.png"/>
+        </div>
+        
+    </header>
+    <nav>
+    	<a id="navLink01" href="index.html">Home</a>
+        <a id="navLink02" href="index.html">About us</a>
+        <a id="navLink03" href="contact.html">Contact</a>
+    </nav>
+    <div id="content">
+        <div id="leftSide">
+        	<section>
+                <article>
+                    <h2>Title</h2>
+                    <canvas id="myCanvas" width="200" height="100"
+                    style="border:1px solid #c3c3c3;">
+                    Your browser does not support the canvas element.
+                </canvas>
+
+                <script>
+
+                    var canvas = document.getElementById("myCanvas");
+                    var elem1 = canvas.getContext("2d");
+                    var elem2 = canvas.getContext("2d");
+                    var elem3 = canvas.getContext("2d");
+                    var elem4 = canvas.getContext("2d");
+                    var elem5 = canvas.getContext("2d");
+                    var elem6 = canvas.getContext("2d");
+                    var elem7 = canvas.getContext("2d");
+
+                    elem1.fillStyle = "#FF0000";
+                    elem1.fillRect(0,10,20,100);
+
+                    elem2.fillStyle = "#AB0000";
+                    elem2.fillRect(30,50,20,100);
+
+                    elem3.fillStyle = "#345434";
+                    elem3.fillRect(60,30,20,100);
+
+                    elem4.fillStyle = "#ff5478";
+                    elem4.fillRect(90,90,20,100);
+
+                    elem5.fillStyle = "#ee453423";
+                    elem5.fillRect(120,10,20,100);
+
+                    elem6.fillStyle = "#352148";
+                    elem6.fillRect(150,90,20,100);
+
+                    elem7.fillStyle = "#458521";
+                    elem7.fillRect(180,50,20,100);
+
+                </script>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h2>Title</h2>
+                <frameset cols="25%,50%,25%">
+                <frame src="http://animateyourhtml5.appspot.com/pres/">
+
+            </frameset>
+        </article>
+    </section>
+    <section>
+        <article>
+            <h2>Title</h2>
+            <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                
+                Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            </p>
+        </article>
+    </section>
+    <section>
+        <article>
+            <h2>Title</h2>
+            <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                
+                Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            </p>
+        </article>
+    </section>
+</div>
+<div id="rightSide">
+    <div id="firstRight">
+        
+        <section>
+            <article>
+                <h2>Title</h2>
+                <p>
+                    Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                    Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas<img src="img/hippo.png" class="TextWrapLeft" alt=""/> faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                    
+                    Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                </p>
+            </article>
+        </section>
+        
+    </div>
+    <div id="SecondRight">
+        
+        <section>
+            <article>
+                <h2>Title</h2>
+                <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas faucibus mollis interdum. Donec ullamcorper <img class="TextWrapRight" src="img/rhino.png" alt=""/>nulla non metus auctor fringilla. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                    
+                    Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                    Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                    Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                    
+                </p>
+            </article>
+        </section>
+        
+    </div>
+</div>
+<div id="backrightside">
+    
+    <section>
+        <article>
+            <h2>Title</h2>
+            <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                Aenean eu leo quam. <img src="img/africa.jpg" class="TextWrapCenter" alt=""/>Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                
+                
+                
+                Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                
+            </p>
+        </article>
+    </section>
+    
+</div>
+</div>
+<footer>
+   <section>
+    <h1>Oscar Moreno - 2016 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a></h1>
+    
+</section>
+</footer>
+</div>
+</body>
+
+</html>

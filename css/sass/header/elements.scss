@@ -1,0 +1,38 @@
+@import "../strings";
+@import "../general_functions";
+
+$header_colour: #C8BD2D;
+$h1_size : 80px;
+$p_size : 20px;
+
+header{
+	background:url(../img/yellow_parchment_paper_wallpaper_texture_seamless.jpg) repeat top center;
+	height:600px;
+	width:100%;
+	box-sizing: border-box;
+	float:left;
+	padding-left:40%;
+	}
+
+header h1{
+    font-family: $font_family;
+	@include text_shadow(4px, 4px, 0px, $shadow_color);
+	font-size: $h1_size;
+	color:$header_colour;
+}
+header div img{
+	background-color: $header_colour;
+	@include box_shadow (10px, 10px, 5px, $shadow_color);
+	}
+header p{
+    font-family: $font_family;
+	@include text_shadow(2px, 2px, 0px, $shadow_color);
+	font-size:$p_size;
+	color: $header_colour;
+}
+header p:hover{
+	-ms-transform: rotate(20deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Safari */
+    transform: rotate(20deg);
+	transition: 4s ease-in-out;
+	}

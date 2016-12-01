@@ -1,0 +1,5 @@
+/* Chrome, Safari, Opera */
+@mixin ChangeWordSpacing($from,$to) {
+  -webkit-keyframes: from {letter-spacing: $from;}; to {letter-spacing: $to;};
+  from {letter-spacing: $from;}; to {letter-spacing: $to;};
+}

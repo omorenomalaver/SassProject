@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+    from {background-color: blue;}
+    to {background-color: green;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    from {background-color: blue;}
+    to {background-color: green;}
+}
+
+

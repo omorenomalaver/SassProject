@@ -1,0 +1,164 @@
+/*!
+* CSS Compiled on: 2016-03-30 14:28:45 +0800
+*/
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%; }
+
+#general {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-width: 1000px; }
+
+header {
+  background: url(../img/yellow_parchment_paper_wallpaper_texture_seamless.jpg) repeat top center;
+  height: 600px;
+  width: 100%;
+  box-sizing: border-box;
+  float: left;
+  padding-left: 40%; }
+
+header h1 {
+  font-family: 'alpha_echoregular';
+  text-shadow: 4px 4px #786F00;
+  font-size: 80px;
+  color: #C8BD2D; }
+
+header div img {
+  background-color: #C8BD2D;
+  box-shadow: 10px 10px 5px #786F00; }
+
+header p {
+  font-family: 'alpha_echoregular';
+  text-shadow: 2px 2px #786F00;
+  font-size: 20px;
+  color: #C8BD2D; }
+
+header p:hover {
+  -ms-transform: rotate(20deg);
+  /* IE 9 */
+  -webkit-transform: rotate(20deg);
+  /* Safari */
+  transform: rotate(20deg);
+  transition: 4s ease-in-out; }
+
+/* Chrome, Safari, Opera */
+nav {
+  background: url(../img/yellow_parchment_paper_wallpaper_texture_seamless.jpg) repeat top center;
+  height: 100px;
+  box-sizing: border-box;
+  width: 100%;
+  float: left;
+  min-width: 600px; }
+
+nav a {
+  margin: 1%;
+  padding: 1%;
+  width: 29%;
+  height: 20%;
+  background: url(../img/nav.jpg) repeat top center;
+  float: left;
+  font-family: 'alpha_echoregular';
+  text-decoration: none;
+  border-radius: 25px;
+  color: #100C54; }
+
+nav a:hover {
+  -webkit-animation-name: ChangeWordSpacing;
+  /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 2s;
+  /* Chrome, Safari, Opera */
+  animation-duration: 2s;
+  box-shadow: 10px 10px 5px #786F00; }
+
+#content {
+  width: 100%;
+  min-width: 600px;
+  box-sizing: border-box;
+  float: left;
+  height: 100%; }
+
+article h2 {
+  font-family: 'alpha_echoregular';
+  text-shadow: 2px 2px #FFF689;
+  color: #100C54;
+  font-size: 30px; }
+
+article p {
+  font-family: 'verdana';
+  color: #784700; }
+
+.TextWrapLeft {
+  float: left;
+  margin: 10px; }
+
+.TextWrapRight {
+  float: right;
+  margin: 10px; }
+
+.TextWrapCenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+#leftSide {
+  padding: 1%;
+  margin: 1%;
+  width: 20%;
+  float: left;
+  box-shadow: 10px 10px 5px #786F00;
+  background-color: #DED454; }
+
+#rightSide {
+  box-shadow: 10px 10px 5px #786F00;
+  padding: 1%;
+  margin: 1%;
+  width: 70%;
+  float: left; }
+
+#firstRight {
+  box-shadow: 10px 10px 5px #786F00;
+  padding: 1%;
+  margin: 1%;
+  width: 45%;
+  height: 80%;
+  float: left; }
+
+#SecondRight {
+  box-shadow: 10px 10px 5px #786F00;
+  padding: 1%;
+  margin: 1%;
+  width: 45%;
+  height: 80%;
+  float: left; }
+
+#backrightside {
+  box-shadow: 10px 10px 5px #786F00;
+  padding: 1%;
+  margin: 1%;
+  width: 70%;
+  height: 32%;
+  float: left; }
+
+#hippoImg {
+  width: 126px;
+  height: 100px;
+  transition: width 2s, height 2s; }
+
+#hippoImg:hover {
+  width: 225px;
+  height: 200px; }
+
+footer {
+  font-family: 'verdana';
+  text-shadow: 4px 4px #786F00;
+  font-size: 30px;
+  color: #C8BD2D;
+  background: url(../img/yellow_parchment_paper_wallpaper_texture_seamless.jpg) repeat top center;
+  height: 150px;
+  width: 100%;
+  float: left; }
+
+/*# sourceMappingURL=mytest.css.map */

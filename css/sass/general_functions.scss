@@ -1,0 +1,8 @@
+@mixin box_shadow($h-shadow, $v-shadow, $blur, $color)
+{
+	box-shadow: $h-shadow $v-shadow $blur $color;
+}
+@mixin text_shadow($h-shadow, $v-shadow, $blur-radius, $color)
+{
+	text-shadow: $h-shadow $v-shadow $blur-radius $color;
+}

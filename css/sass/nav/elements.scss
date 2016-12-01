@@ -1,0 +1,28 @@
+@import "functions";
+// the general nav
+nav{
+	background:url(../img/yellow_parchment_paper_wallpaper_texture_seamless.jpg) repeat top center;
+	height:100px;
+	box-sizing: border-box;
+	width:100%;
+	float:left;
+	min-width: 600px;
+	}
+nav a{
+	margin:1%;
+	padding:1%;
+	width:29%;
+	height:20%;
+	background:url(../img/nav.jpg) repeat top center;
+	float:left;
+	font-family: 'alpha_echoregular';
+	text-decoration:none;
+	border-radius: 25px;
+	color:#100C54;
+	}
+nav a:hover{
+    -webkit-animation-name: ChangeWordSpacing; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 2s; /* Chrome, Safari, Opera */
+    animation-duration: 2s;
+	box-shadow: 10px 10px 5px #786F00;
+}

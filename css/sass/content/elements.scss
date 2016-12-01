@@ -1,0 +1,80 @@
+@import "../strings";
+@import "../general_functions";
+
+.general_spatial_position
+{
+	padding:1%;
+	margin:1%;
+	@include box_shadow (10px, 10px, 5px, #786F00);
+	float:left;
+}
+
+#content
+{
+	width: 100%;
+	min-width: 600px;
+	box-sizing: border-box;
+	float:left;
+	height:100%;
+}
+
+article h2
+{
+	font-family: $font_family;
+	text-shadow: 2px 2px #FFF689;
+	color:#100C54;
+	font-size:30px;
+	}
+article p
+{
+	font-family: 'verdana';
+	color:#784700;
+	}
+.TextWrapLeft{
+	float:left;
+	margin:10px;
+	}
+.TextWrapRight{
+	float:right;
+	margin:10px;
+	}
+.TextWrapCenter
+{
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto;
+	}
+	
+#leftSide{
+	@extend .general_spatial_position;
+	background-color:#DED454;
+	width:20%;
+	}
+#rightSide{
+	@extend .general_spatial_position;
+	width:70%;
+	}
+#firstRight{
+	@extend .general_spatial_position;
+	width:45%;
+	height:80%;
+	}
+#SecondRight{
+	@extend .general_spatial_position;
+	width:45%;
+	height:80%;
+	}
+#backrightside{
+	@extend .general_spatial_position;
+	width:70%;
+	height:32%;
+}
+#hippoImg{
+	width: 126px;
+    height: 100px;
+	transition: width 2s, height 2s;
+}
+#hippoImg:hover {
+	width: 225px;
+    height: 200px;
+}

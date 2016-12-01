@@ -1,0 +1,13 @@
+@import "colors";
+@import "../strings";
+
+footer{
+	font-family: 'verdana';
+	@include text_shadow(4px, 4px, 0px, $shadow_color);
+	font-size:30px;
+	color: $textColor;
+	background:url(../img/yellow_parchment_paper_wallpaper_texture_seamless.jpg) repeat top center;
+	height:150px;
+	width:100%;
+	float:left;
+}
